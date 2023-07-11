@@ -1,18 +1,29 @@
+html {
+    overflow-y: hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+
 body,h1 {
-    font-family: "Raleway", Arial, sans-serif
+    font-family: "Raleway", Arial, sans-serif;
 }
 
 h1 {
     letter-spacing: 6px
 }
 
-.gallery {
-    margin-bottom:128px;
+footer {
+    margin-bottom: -50px;
 }
-
 
 .w3-row-padding img {
     margin-bottom: 12px
+}
+
+.gallery {
+    height: 100px;
 }
 
 #image-track {
@@ -21,7 +32,7 @@ h1 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(0%, -50%); 
+    transform: translate(0%, -30%);
     user-select: none; /* -- Prevent image highlighting -- */
 }
   
