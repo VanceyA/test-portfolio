@@ -1,5 +1,17 @@
-html {
-    overflow-y: hidden;
+/* Colors 
+
+#fb917a
+#fdba61
+#c4bbb6
+
+*/
+
+.primary {
+    background-color: #cfc7c2;
+}
+
+.w3-button:hover {
+    background-color: #a8a19d !important;
 }
 
 body {
@@ -14,8 +26,15 @@ h1 {
     letter-spacing: 6px
 }
 
-footer {
-    margin-bottom: -50px;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer > * {
+    user-select: none;
 }
 
 .w3-row-padding img {
